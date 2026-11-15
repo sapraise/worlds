@@ -1,6 +1,6 @@
 # Worlds repository instructions
 
-- Read README.md, prompts/FABLE-5-BUILD.txt, and docs/ before implementation.
+- Read README.md, prompts/CLAUDE-BUILD.txt, and docs/ before implementation.
 - Build and test locally. Do not deploy, register domains, enable hosting, submit directories, or announce a launch during this phase.
 - The seed repository contains planning materials and concept art, not a working app. Keep status claims accurate as implementation changes.
 - Do not hardcode a universal agent cast. Stable source IDs are distinct from names, avatars, and room assignments.

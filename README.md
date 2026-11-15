@@ -8,7 +8,7 @@ Connect your own setup, review an agent plan, choose a world, and work together 
 
 ## Start building
 
-Select Claude Fable 5 in your Claude Code environment, open this repository, and paste [the full build prompt](prompts/FABLE-5-BUILD.txt). The prompt instructs Claude to implement, inspect, test, and document a local alpha in milestones.
+Open this repository in Claude Code and paste [the full model-independent build prompt](prompts/CLAUDE-BUILD.txt). The owner prefers Opus 5.5 as the starting model if it is available; Fable 5 is optional. The prompt instructs Claude to implement, inspect, test, and document a local alpha in milestones.
 
 1. Read [the product brief](docs/PRODUCT-BRIEF.md) and [workspace interaction specification](docs/WORKSPACE-UI.md).
 2. Read [the design-system brief](docs/DESIGN-SYSTEM.md). Supply an authorized Glob checkout for its separate, read-only design-system audit.
@@ -31,7 +31,7 @@ The initial alpha targets one polished local world, source-driven planning, usef
 
 | Material | Purpose |
 |---|---|
-| [Fable 5 prompt](prompts/FABLE-5-BUILD.txt) | Complete implementation handoff |
+| [Claude build prompt](prompts/CLAUDE-BUILD.txt) | Complete implementation handoff |
 | [Glob audit prompt](prompts/GLOB-DESIGN-SYSTEM-AUDIT.txt) | Reuse architecture and match depth without copying a brand |
 | [Design system](docs/DESIGN-SYSTEM.md) | Identity, tokens, components, character/3D/motion pipeline, explorers |
 | [Workspace UI](docs/WORKSPACE-UI.md) | Map navigation, inspector, plans, tasks, people, provenance |
