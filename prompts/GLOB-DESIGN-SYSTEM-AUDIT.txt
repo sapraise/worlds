@@ -1,0 +1,22 @@
+Audit the owner's authorised Glob checkout read-only before designing the Worlds system. Do not modify Glob, publish its material, run unknown scripts, print secrets, or assume redistribution rights. If the path is missing, request it and mark this audit pending; continue independent Worlds work when possible.
+
+Read applicable AGENTS.md and README files, repository state and package manifests. Identify canonical current sources versus older Atlas/Glob names, experiments, generated fixtures and abandoned work. Never infer maturity solely from a folder name.
+
+Inventory with precise paths:
+- Brand strategy, colour/type/spacing/motion tokens, icons and typography assets.
+- Components, complete interaction states, layout/responsive/accessibility conventions.
+- OS/workspace architecture, navigational patterns, state models, design/landing explorers.
+- GTM and content systems: source/evidence contracts, approval flow, asset/export naming, reusable production mechanisms.
+- Graphics, video, animation, scripts/timelines and render/export pipelines.
+- Mascot identity, character construction, pose library, actual 3D geometry, materials, rigs/bones, animation clips, lighting/cameras and export formats.
+- Asset manifests, license/ownership evidence, tests and validation.
+
+Trace three real flows from source to output: UI state → component → interaction/motion; creative brief → assets → rendered output; character definition → pose/animation → export. Report missing links. A screenshot/render is not a mesh or rig; procedural geometry is not necessarily skeletal animation.
+
+Create a matrix: Glob capability; path/evidence; maturity (production/experimental/proposed/missing); reusable mechanism; ownership/redistribution status; Worlds counterpart; action (reuse/adapt/rebuild/do not transfer/pending); priority; concrete acceptance proof.
+
+Extract architecture and conventions, not private business information or an exact brand skin. Worlds needs its own white/colourful clean UI, original characters and worlds, motion vocabulary, component set, design explorer, local landing page and substantial worlds explorer. Preserve the source-first product contracts and direct list accessibility.
+
+Keep detailed private audit material in .private/glob-audit/ (ignored by Git) or another authorised private location. Publish only a sanitized architecture/coverage summary when rights allow. Do not copy Glob production code or assets automatically. Propose a small lawful reuse pilot with the fewest dependencies and report source paths privately.
+
+Outputs: inventory, coverage matrix, reuse decisions, Worlds system blueprint, character/3D production plan, component/state checklist, explorer structure, and staged implementation plan. State what was actually inspected and what remains unavailable. This audit does not authorize changes to Glob or public deployment of Worlds.

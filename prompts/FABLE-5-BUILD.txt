@@ -1,0 +1,120 @@
+Build Worlds, an open-source spatial workspace for humans and their agents. You are Claude Fable 5 working in Claude Code as the product designer and implementation engineer. Work from this repository, implement in milestones, verify behavior, and leave a usable local build. Do not stop after writing another plan.
+
+LOCAL FIRST
+
+Build and test on localhost. Do not deploy, enable GitHub Pages, create a public tunnel, buy/register a domain, publish to Product Hunt/MCP directories, announce the project, or configure paid infrastructure. The public source repository is authorized; a live hosted service is a later decision. Bind local services to loopback by default. Never describe a local sample as a deployed or connected product.
+
+Read AGENTS.md, README.md, docs/PRODUCT-BRIEF.md, docs/WORKSPACE-UI.md, docs/DESIGN-SYSTEM.md, docs/ROADMAP.md, docs/LOCAL-ACCEPTANCE.md, and docs/BRAND-DECISIONS.md. Inspect actual files, instructions, versions, git status, and available tooling. Preserve existing work. Start with a brief milestone plan, then execute it. Ask only for information that truly blocks a required action; continue independent work when a source or tool is unavailable.
+
+Working product name: Worlds. Candidate domain: worlde.space, reported available by the owner but not purchased or independently verified. worlds.gg is already registered. Keep name, domain, repo URL and social links configurable. Use localhost links now. No employment, affiliation, endorsement or official Nebula feature announcement is implied.
+
+THE EXPERIENCE
+
+Think of a Gather-inspired spatial workspace with the ownership/remix feeling of a small arcade world. The map IS the workspace UI. People are player characters; connected agents are NPCs with real identity and work state. Rooms hold projects; desks and workshops open task context; libraries hold artifacts; project boards show blockers and history. The shell is white, clean, colourful and easy to understand. The world itself can be fantastical and richly art-directed.
+
+This is not a fixed office for a preselected cast. Every user has different agents and names. Discover their permitted source, propose an agent plan, propose a world plan, let them edit and review it, then build the world. The example rosters are only fixtures. Do not assume everyone has a Chief, Scout, Writer, Studio, or Newsroom. Names are not capability metadata or authorization.
+
+The first useful moment: enter a world shaped around your setup, find an agent, understand its actual work and connection freshness, and open an output or verified continuation route. Walking and emotes add charm; direct click and list access keep work fast.
+
+GLOB SYSTEM AUDIT AND ORIGINAL WORLDS DESIGN SYSTEM
+
+The owner wants the same depth of system as their Glob work: brand, UI, OS patterns, components, content/creative templates, video/motion, mascots, poses, 3D assets/rigs, and an explorer. Read prompts/GLOB-DESIGN-SYSTEM-AUDIT.txt. If an authorised Glob checkout is available, inspect it read-only. Otherwise report the audit pending, request its location when necessary, and continue with an independent baseline. Never claim to have inspected unavailable files.
+
+Create a coverage matrix with exact evidence paths, current maturity, reuse rights, Worlds counterpart, priority, and acceptance proof. Separate reusable architecture from Glob-specific identity. Do not import private data, secrets, production configuration, logos, proprietary art, or code with unclear redistribution rights. Keep private audit notes out of the public git index. Treat earlier Atlas/Glob naming as source context, not permission to mix repositories.
+
+Build original Worlds identity and assets. Match depth and consistency rather than copying a skin. Avoid inventing a complete rig where Glob only contains procedural geometry or rendered poses. A render, mesh, rig, animation clip, and exported sprite sheet are distinct deliverables.
+
+Visual direction:
+- White primary background, charcoal type, crisp spacing, a restrained border/elevation system, and bright selective accents.
+- Gather informs spatial clarity; Grok Bot informs appealing agent identity; Nebula informs simple collaborative product language. Use original visual assets, no copied logos or recognisable proprietary mascots.
+- Modern, clean startup launch presentation: show what it does, show the product, make the next action obvious. No generic gradient-heavy AI landing page, fake testimonials, invented usage counts, or empty enterprise claims.
+- Put the expressive fantasy, neon, arcade atmosphere and environmental storytelling inside the worlds. The surrounding UI stays calm.
+- Near-top-down map framing; clear paths, multiple areas, legible stations and characters. Choose one coherent 2.5D/3D pipeline; do not mix unrelated pixel-art and painterly kits.
+
+System deliverables, staged by priority:
+1. Tokens: colour roles, typography, spacing, grid, radii, elevation, density, breakpoints, focus, icon scale, motion and reduced motion. Separate semantic status, brand accent, character palette, and world theme.
+2. Primitives and complete states: buttons, fields, selects, tabs, chips, menus, dialogs, sheets, toasts, skeletons, loading/empty/error/disconnected states.
+3. Product patterns: source card, roster row, agent card, plan editor/diff, review flow, world preview, task inspector, artifact card, activity timeline, session/invite state, source freshness/provenance.
+4. Spatial kit: floor, walls, paths, doors, stations, landmarks, selection, labels, camera limits, collision and world/list parity.
+5. Original character family: considered silhouettes, proportions, palette, material/light rules, appearance customisation, attachments and map-scale readability. Human and agent indicators must remain distinguishable without relying only on colour.
+6. 3D/pose pipeline: concept sheet, turnarounds, actual geometry/materials, rig if used, pose definitions, animation clips, GLB or appropriate exports, thumbnails, origins/bounds, provenance and performance budget. If only procedural non-rigged characters are implemented, say so.
+7. Character states: idle, walk, working, reading/thinking, wave, presenting/handoff, needs-input, success, failed and offline. Motion follows real state; it never fabricates work or completion. Keep ambient animation deterministic and inexpensive.
+8. Communication kit: product illustration, world cards, screenshot framing, documentation diagrams and demo title/end treatments. Do not draft personal social posts in this implementation task.
+
+Provide a real local /design explorer using shared tokens, components and asset definitions: live component states, product patterns, character turntables/poses, material/light tests, world tiles, responsive layouts and accessibility notes. Label concept/placeholder/working/planned accurately. Start with the subset needed by the alpha and expand after the core loop works.
+
+LANDING AND WORLD EXPLORER
+
+Create local routes /, /worlds, /onboarding, /workspace/:id and /design as they become implemented. Choose an equivalent routing scheme if the codebase warrants it and document the choice.
+
+The landing page needs: concise product introduction and real preview; a LARGE worlds section; the connect/plan/build sequence; people-and-agents interaction; open-source/remix explanation; actual integration status; local demo entry. Do not make the worlds section four token cards below generic marketing.
+
+The /worlds explorer should have substantial previews, theme filters, details, spatial layout, intended use and readiness labels. Office, Café, Village and Cyberpunk are starter settings. Offer “Try locally” only for implemented worlds; mark raster images Concept. Theme comparison uses the same roster so the user sees a change of setting rather than a secretly different product. No fake payment, waitlist success or sharing backend.
+
+Inspect assets/concepts/ before using them. They are generated illustrations, not ready-to-use tile maps, GLB files or collision geometry. Build one playable section from modular assets first. Office and Café can reuse a kit; Village is the signature setting, Cyberpunk the expressive alternate. Choose the first playable world based on the feasibility spike and art budget; do not promise four production worlds in the initial sprint.
+
+SOURCE-FIRST ONBOARDING
+
+Flow: source/scope → discovered entities → AgentPlan → WorldPlan preview → exact-revision review → validated BuildManifest → world → useful work → optional teammate.
+
+Support a clearly labelled sample with at least two meaningfully different rosters for UI development. It must not replace a real connection claim. GitHub can import reviewed definitions or version a world pack; it is not automatically a live-agent source. Avoid private-repo OAuth and automatic agent provisioning in the alpha.
+
+SourceSnapshot contains source/workspace/entity stable IDs, observed metadata and relationships, scope, timestamps and provenance. Do not ingest every private prompt or chat history merely to plan a map.
+
+AgentPlan contains selected existing agents, optional display aliases/appearances, assignments, relationship rationale and separately marked proposed agents. A proposal does not create an agent. Export recommendations if provider provisioning is outside scope.
+
+WorldPlan contains theme, size, zones, paths, spawn points, stations, actor bindings, human capacity, allowed assets, source revision and change summary.
+
+BuildManifest records the exact approved revision and allowed resolved assets used by the renderer. Plans and packs are declarative data, never executable scripts. Validate schemas, bounds, identifiers, asset allowlists and layout before assembly. Approval belongs to authenticated server state; an agent-supplied approved=true is not approval.
+
+Handle renamed/deleted/revoked source entities, empty/partial source, 2/12/40-agent rosters, and multiple roles per agent. Cap visible NPCs if needed and preserve complete list access. Source sync proposes a diff; it must not erase user layout. The agent, its display name, its avatar, its home area, a channel/team, and a workflow stage are separate concepts.
+
+ARCHITECTURE AND SPIKE
+
+Separate source adapter, planner, deterministic world builder, renderer, shared room server, durable storage and MCP bridge. Do not build a new agent execution platform.
+
+Nebula's documented CLI is the first discovery route to investigate. Read the current official documentation and installed help, verify actual JSON fields and supported read operations under the user's authorized local identity. Do not invent browser OAuth, dispatch endpoints or lifecycle event subscriptions. Keep provider credentials in a local/server connector, never the browser or a public sample server.
+https://docs.nebula.gg/docs/cli/reference
+https://docs.nebula.gg/docs/workspace/connections
+
+The MCP bridge faces the other direction: it lets a permitted agent read/update a world. Adding Worlds as a Nebula MCP connection does not discover the Nebula roster. Prove both directions independently. Nebula multiplayer does not provide avatar networking; MCP does not synchronize physics.
+
+Suggested stack: TypeScript, React, React Three Fiber/Three.js, one small authoritative room server using Colyseus if appropriate, persistent local storage, simple fixed-floor collision. Use Rapier's kinematic controller only if it reduces complexity. Verify current package compatibility and pin the tested versions. Avoid unnecessary monorepo scaffolding, custom physics engines, networked rigid bodies, infinite voxels and combat.
+
+First spike: validate two sample rosters and one permitted real source if available; generate a simple plan; assemble a primitive scene; receive a real authenticated MCP update; demonstrate two separate local human clients. Time-box it and record blockers before promising launch timing. No model call should be required for ordinary movement or animation.
+
+MCP AND STATE
+
+Use the real MCP SDK. Implement proposed tools world_get, world_plan, world_build, world_event and world_attach_artifact. These are Worlds tools, not pre-existing Nebula APIs.
+
+world_plan validates and previews. world_build applies only an owner-reviewed revision. world_event receives bounded idempotent run updates. world_attach_artifact references permitted outputs. No arbitrary shell execution, unrestricted files/URLs, or inherited owner permissions.
+
+For local development use a real tested transport on loopback. Choose stdio and/or Streamable HTTP based on the actual client. A cloud Nebula client cannot necessarily reach localhost; do not silently open a tunnel. Test locally with an MCP client/inspector and document remote integration pending if access is unavailable. Hosting and remote authentication belong to the later go-live phase.
+https://ts.sdk.modelcontextprotocol.io/server
+
+Persist stable world/actor/run/event IDs, event timestamps, sequence/attempt where available, provenance, visibility and artifact references. Deduplicate retries and reject invalid transitions; late events must not regress a completed run without a new attempt. Separate idle/working/needs-input/completed/failed/unknown from freshness and human acceptance. Label sample, agent-reported, runtime-observed and human-reviewed evidence. No success from silence.
+
+Humans can move, wave, select and inspect useful permitted work. An agent panel can continue work through a verified Nebula route. Direct task dispatch is conditional on proving support; never return a canned response as if it came from a live agent. Keep operational approvals in the actual provider. Room access does not grant source access. Guests cannot use the owner's connection or edit the world as owner.
+
+Local auth may be a documented development-only session mechanism. It must not be advertised as production tenancy. Test room isolation and source authorization. No secret leakage in manifests, exports, screenshots, client bundles or logs. Do not fetch arbitrary artifact URLs on the server.
+
+MILESTONES AND CAPACITY
+
+The initial experiment has 20–30 human hours across two weeks. Full design-system parity, production character rigs, four worlds and public hosting require further work. Keep a prioritized progress file with actual/remaining work, not an unqualified promise.
+
+A. Read-only audit and feasibility spike.
+B. One complete source-to-plan-to-world loop, clear states, small shared component set.
+C. Useful work inspector, local persistence, two-client presence, direct list access.
+D. Original art/character treatment, white UI, initial /design, landing and large world explorer.
+E. Meaningful tests, clean local setup, screenshots/demo, documented limits.
+F. Later: complete design-system depth, full rigs/poses, additional worlds, real hosted pilots, launch.
+
+Implement A–E in manageable increments. At each checkpoint report what works, what is sample/partial/pending, evidence, and the next smallest step. Reduce optional art and route breadth before cutting source honesty or permission boundaries. Do not stop simply because you have produced a scaffold. If a critical external capability is unavailable, finish independent implementation and state the exact remaining dependency.
+
+VERIFICATION AND HANDOFF
+
+Run the acceptance checks in docs/LOCAL-ACCEPTANCE.md as applicable. Especially verify two different rosters, stable IDs on rename, reviewed-plan revision enforcement, source revocation, duplicate/late updates, cross-room denial, guest edit denial, real MCP tool calls, two browser clients/reconnect, saved reload and clean install. Inspect desktop and narrow layouts, keyboard/focus behavior and reduced motion. Do not write tests that only repeat constants or implementation details.
+
+Keep code license and asset rights explicit. Include a lockfile, secret-free .env.example only when needed, accurate quickstart, sample fixtures, source/MCP adapter interfaces, world schemas, contribution notes, known limits and test evidence. No third-party reference screenshots in the distributable assets. Review the diff for private material before pushing repository changes.
+
+Final handoff: exact local run commands and URLs; tested feature matrix; screenshots; core architecture and tradeoffs; Glob coverage/reuse matrix; design-system/character deliverables with actual maturity; verification results; blocked integrations; next milestone. Do not deploy. The owner will test locally before deciding when to take it live.

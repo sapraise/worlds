@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "0.1-fixture",
+  "source": {
+    "id": "sample-creative-studio",
+    "type": "sample",
+    "workspaceId": "creative-studio",
+    "provenance": "sample",
+    "connected": false
+  },
+  "entities": [
+    {
+      "id": "agent-a",
+      "kind": "agent",
+      "displayName": "Mira",
+      "description": "Research and source verification",
+      "capabilitiesVerified": false
+    },
+    {
+      "id": "agent-b",
+      "kind": "agent",
+      "displayName": "Kit",
+      "description": "Creative exploration",
+      "capabilitiesVerified": false
+    },
+    {
+      "id": "agent-c",
+      "kind": "agent",
+      "displayName": "Quill",
+      "description": "Editorial draft review",
+      "capabilitiesVerified": false
+    }
+  ],
+  "notice": "Illustrative disconnected fixture. Not a real provider response or a production schema."
+}

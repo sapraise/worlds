@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "0.1-fixture",
+  "source": {
+    "id": "sample-software-team",
+    "type": "sample",
+    "workspaceId": "software-team",
+    "provenance": "sample",
+    "connected": false
+  },
+  "entities": [
+    {
+      "id": "agent-d",
+      "kind": "agent",
+      "displayName": "Patch",
+      "description": "Implementation support",
+      "capabilitiesVerified": false
+    },
+    {
+      "id": "agent-e",
+      "kind": "agent",
+      "displayName": "Orbit",
+      "description": "Testing and verification",
+      "capabilitiesVerified": false
+    },
+    {
+      "id": "agent-f",
+      "kind": "agent",
+      "displayName": "Beacon",
+      "description": "Release notes",
+      "capabilitiesVerified": false
+    },
+    {
+      "id": "agent-g",
+      "kind": "agent",
+      "displayName": "Index",
+      "description": "Documentation",
+      "capabilitiesVerified": false
+    }
+  ],
+  "notice": "Illustrative disconnected fixture. Not a real provider response or a production schema."
+}
